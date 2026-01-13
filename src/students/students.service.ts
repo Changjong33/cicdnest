@@ -21,7 +21,7 @@ export class StudentsService {
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} student`;
+    return `학생 ${id}`;
   }
 
   update(id: number, _updateStudentDto: UpdateStudentDto) {
