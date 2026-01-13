@@ -14,4 +14,9 @@ export class AppController {
   getGelato(): string {
     return '젤라또 4시에 오픈함 ㅅㄱ';
   }
+
+  @Get('/arombake')
+  getAromBake(): string {
+    return '아롬베이크';
+  }
 }
